@@ -33,7 +33,10 @@ output/
 
 # Local secrets and machine-specific settings
 .env
-.claude/settings.local.json
+.claude/
+
+# Generated knowledge graph (rebuild with /graphify)
+graphify-out/
 
 # Editors / OS
 .vscode/
@@ -46,3 +49,4 @@ Thumbs.db
 #   docs/phase*/plots/  validation plots that the READMEs show
 
 project-plan.md
+CLAUDE.md
