@@ -1,0 +1,8 @@
+# Build tools: pip keeps these inside .venv, so no system install is needed.
+cmake>=3.25
+ninja>=1.11
+
+# Plots and SGP4 reference data (tools/).
+numpy>=2.0
+matplotlib>=3.9
+sgp4>=2.23

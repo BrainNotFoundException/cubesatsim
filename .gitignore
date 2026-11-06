@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+.ipynb_checkpoints/
+
+# Test and lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# C++ build output (Phase 4)
+build/
+cmake-build-*/
+compile_commands.json
+*.o
+*.obj
+*.a
+*.lib
+*.exe
+*.dll
+*.so
+*.pdb
+
+# Runtime output: simulator CSV files and logs (plots are kept in docs/)
+output/
+*.log
+
+# Local secrets and machine-specific settings
+.env
+.claude/settings.local.json
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Tracked on purpose, do not ignore:
+#   data/tles/          dated TLE snapshots, so validation can be rerun
+#   docs/phase*/plots/  validation plots that the READMEs show
+
+project-plan.md
