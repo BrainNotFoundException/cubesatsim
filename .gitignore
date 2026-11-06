@@ -35,7 +35,6 @@ output/
 .env
 .claude/
 
-
 # Generated knowledge graph (rebuild with /graphify)
 graphify-out/
 
@@ -47,7 +46,7 @@ Thumbs.db
 
 # Tracked on purpose, do not ignore:
 #   data/tles/          dated TLE snapshots, so validation can be rerun
-#   docs/phase*/plots/  validation plots that the READMEs show
+#   docs/plots/         validation plots that the README shows
 
 project-plan.md
 CLAUDE.md

@@ -2,7 +2,7 @@
 //
 // Your real Phase 1 tests go in new files here, e.g. test_forces.cpp and
 // test_integrators.cpp. They are picked up automatically after you re-run the
-// build. See docs/phase1/README.md for the list to aim for.
+// build.
 #include <gtest/gtest.h>
 
 #include <cmath>
