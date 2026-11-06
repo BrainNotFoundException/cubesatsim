@@ -35,6 +35,7 @@ output/
 .env
 .claude/
 
+
 # Generated knowledge graph (rebuild with /graphify)
 graphify-out/
 
