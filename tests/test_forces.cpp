@@ -1,7 +1,5 @@
 #include <gtest/gtest.h>
 
-#include <cmath>
-
 #include "sim/constants.hpp"
 #include "sim/forces.hpp"
 
