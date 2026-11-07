@@ -8,6 +8,6 @@ sim::State sim::euler_next_state(const State &state, double dt)
     next_state.r = state.r + state.v * dt;
     next_state.v = state.v + gravity_acceleration(state.r) * dt;
 
-    path_history.push_back(next_state);
+    // path_history.push_back(next_state);
     return next_state;
 }
