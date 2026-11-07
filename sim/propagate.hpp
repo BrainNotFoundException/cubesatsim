@@ -1,11 +1,11 @@
+#pragma once
+
 #include "integrators.hpp"
-#include "forces.hpp"
-#include <Eigen/Dense>
+#include <vector>
 
 namespace sim
 {
 
-    std::vector<State> path_history;
-
+    std::vector<State> propagate(State state0, double dt, int steps);
 
 }
