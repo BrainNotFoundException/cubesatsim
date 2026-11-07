@@ -1,4 +1,3 @@
-#include <vector>
 #include <Eigen/Dense>
 
 namespace sim
@@ -10,7 +9,7 @@ namespace sim
         Eigen::Vector3d r;
         Eigen::Vector3d v;
     };
-    
+
     State euler_next_state(const State &state, double dt);
 
 }
