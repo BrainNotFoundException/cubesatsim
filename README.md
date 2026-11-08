@@ -52,7 +52,7 @@ ctest --test-dir build
 
 ## Results
 
-Plots and notes on what was learned are added here as each phase finishes.
+Notes on knowledge gained along with plots [updated with progress].
 
 Phase 1 (Orbit Propagator):
 
