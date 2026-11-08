@@ -53,3 +53,15 @@ ctest --test-dir build
 ## Results
 
 Plots and notes on what was learned are added here as each phase finishes.
+
+Phase 1 (Orbit Propagator):
+
+- Periapsis - closest, Apoapsis - farthest
+- Prograde burn -> when engines fired in direction of movement. -> altitude increases at the opposite side
+    - speeds up at the point where engine was fired.
+    - slows down at the opposite side -> converted to potential energy from kinetic.
+- Retrograde burn -> when engines fired in opposite direction of movement. -> altitude decreases at the opposite side
+    - opposite of prograde.
+- Radial out burn -> pulls the opposite side or the orbit towards the earth cause no change in velocity in direction of motion.
+- Radial in burn -> opposite of radial out burn effectively.
+- Normal burns -> just rotating the orbit while maintaining centre.
